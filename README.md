@@ -19,4 +19,3 @@
   - Distance traveled
   - Time duration
   - Passenger multiplier
-- 💻 Responsive design for all devices
