@@ -118,7 +118,7 @@ def about():
 def fare_calculator():
     """Render the fare calculator page with map integration."""
     return render_template('fare_calculator.html', 
-                         google_maps_api_key=os.environ.get('GOOGLE_MAPS_API_KEY', 'AIzaSyB9TNvq9d_Yfa1yaWeU_RVVhHrmIERGtWo'))
+                         google_maps_api_key=os.environ.get('GOOGLE_MAPS_API_KEY', 'YOUR_API_KEY'))
 
 @app.route('/eco-friendly')
 @login_required
